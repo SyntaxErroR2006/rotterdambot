@@ -4,7 +4,7 @@ module.exports.run = async(client, message, args) => {
 
     try{
 
-        var text = "**RotterdamBot** \n\n **__Commands__** \n .info - Geeft dit scherm. \n .new -  Maakt een ticket. \n .sollicitatie - Geeft je info over de Sollicitaties. \n .link - Hiermee heb je de invite link van de server. \n\n **__Staff Commands__** \n .training - Hiermee kan je een training inplannen. \n .ban - Hiermee kan je iemand bannen. \n .afmelden - Hiermee kan je je afmelden! \n .aanmelden - Hiermee kan je je aanmelden!"
+        var text = "**__RotterdamBot__** \n\n **Algemene commands** \n !info - Geeft dit scherm. \n !ping - Geeft de ping. \n !leden - Geeft het aantal leden weer. \n !new -  Maakt een ticket. \n !sollicitatie - Maakt een sollicitatie ticket. \n\n **Staff Commands** \n !training - Hiermee kan je een training inplannen. \n !ban - Hiermee kan je iemand bannen. \n !close Closed een ticket. \n !closesol - Closed een Sollicitatie."
         
         message.author.send(text);
 

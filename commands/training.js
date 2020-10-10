@@ -4,7 +4,7 @@ module.exports.run = async (client, message, args) => {
 
     //!training <DIENSTNUMMER> <TYPE> <CO-HOST> <DATUM> <TIJD> <OPMERKINGEN>
 
-    if (!message.member.hasPermission("KICK_MEMBERS")) return message.reply("Sorry jij kan dit niet gebruiken");
+    if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Sorry jij kan dit niet gebruiken");
 
     var seperator = "|";
 

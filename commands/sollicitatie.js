@@ -26,7 +26,7 @@ module.exports.run = async (client, message, args) => {
 
     var embed = new discord.MessageEmbed()
         .setTitle("Hallo! " + message.author.username)
-        .setDescription("Je sollicitatie wordt aangemaakt");
+        .setDescription(`Je sollicitatie is aangemaakt in ${createdChannel}`);
 
     message.channel.send(embed);
 

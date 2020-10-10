@@ -51,6 +51,7 @@ module.exports.run = async (client, message, args) => {
         var politieEmbed = new discord.MessageEmbed()
             .setTitle("Politie training")
             .setColor("#283dfc")
+            .setFooter("Made by JustLol2006", "https://cdn.discordapp.com/attachments/725364599171579995/764477474553724938/unknown.png")
             .addFields(
                 { name: "Dienst", value: "Politie" },
                 { name: "Type-Training", value: `${options.TypeTraining}` },
@@ -72,6 +73,7 @@ module.exports.run = async (client, message, args) => {
         var ambulanceEmbed = new discord.MessageEmbed()
             .setTitle("Ambulance training")
             .setColor("#fcf228")
+            .setFooter("Made by JustLol2006", "https://cdn.discordapp.com/attachments/725364599171579995/764477474553724938/unknown.png")
             .addFields(
                 { name: "Dienst", value: "Ambulance" },
                 { name: "Type-Training", value: `${options.TypeTraining}` },
@@ -93,6 +95,7 @@ module.exports.run = async (client, message, args) => {
         var brandweerEmbed = new discord.MessageEmbed()
             .setTitle("Brandweer training")
             .setColor("#eb4034")
+            .setFooter("Made by JustLol2006", "https://cdn.discordapp.com/attachments/725364599171579995/764477474553724938/unknown.png")
             .addFields(
                 { name: "Dienst", value: "Brandweer" },
                 { name: "Type-Training", value: `${options.TypeTraining}` },
@@ -115,6 +118,7 @@ module.exports.run = async (client, message, args) => {
         var rijkswaterstaatEmbed = new discord.MessageEmbed()
             .setTitle("Rijkswaterstaat training")
             .setColor("#f5c338")
+            .setFooter("Made by JustLol2006", "https://cdn.discordapp.com/attachments/725364599171579995/764477474553724938/unknown.png")
             .addFields(
                 { name: "Dienst", value: "Rijkswaterstaat" },
                 { name: "Type-Training", value: `${options.TypeTraining}` },
@@ -138,6 +142,7 @@ module.exports.run = async (client, message, args) => {
         var rechercheEmbed = new discord.MessageEmbed()
             .setTitle("Koninklijke Marechaussee training")
             .setColor("#2a4724")
+            .setFooter("Made by JustLol2006", "https://cdn.discordapp.com/attachments/725364599171579995/764477474553724938/unknown.png")
             .addFields(
                 { name: "Dienst", value: "Koninklijke Marechaussee" },
                 { name: "Type-Training", value: `${options.TypeTraining}` },
@@ -160,6 +165,7 @@ module.exports.run = async (client, message, args) => {
         var KoninklijkeMarechausseeEmbed = new discord.MessageEmbed()
             .setTitle("Dienst Speciale Interventies training")
             .setColor("#0514b3")
+            .setFooter("Made by JustLol2006", "https://cdn.discordapp.com/attachments/725364599171579995/764477474553724938/unknown.png")
             .addFields(
                 { name: "Dienst", value: "Dienst Speciale Interventies" },
                 { name: "Type-Training", value: `${options.TypeTraining}` },
@@ -183,6 +189,7 @@ module.exports.run = async (client, message, args) => {
         var DienstSpecialeInterventiesEmbed = new discord.MessageEmbed()
             .setTitle("Dienst Verkeerspolitie training")
             .setColor("#058db3")
+            .setFooter("Made by JustLol2006", "https://cdn.discordapp.com/attachments/725364599171579995/764477474553724938/unknown.png")
             .addFields(
                 { name: "Dienst", value: "Dienst Verkeerspolitie" },
                 { name: "Type-Training", value: `${options.TypeTraining}` },
@@ -207,6 +214,7 @@ module.exports.run = async (client, message, args) => {
         var VerkeerspolitieEmbed = new discord.MessageEmbed()
             .setTitle("Verkeerspolitie training")
             .setColor("#271c54")
+            .setFooter("Made by JustLol2006", "https://cdn.discordapp.com/attachments/725364599171579995/764477474553724938/unknown.png")
             .addFields(
                 { name: "Dienst", value: "Verkeerspolitie" },
                 { name: "Type-Training", value: `${options.TypeTraining}` },
